@@ -25,7 +25,7 @@ from the map when saving to file. Any combination of
 "zoomControl", "layersControl", "homeButton", "scaleBar". If set to \code{NULL}
 nothing will be removed.}
 
-\item{...}{Further arguments passed on to \code{\link{webshot}}.}
+\item{...}{Further arguments passed on to \code{\link{webshot2}}.}
 }
 \description{
 Save a mapview or leaflet map as \code{.html} index file or \code{.png},
@@ -67,5 +67,5 @@ mapshot(m, url = paste0(getwd(), "/map.html"),
 
 }
 \seealso{
-\code{\link{webshot}}, \code{\link{saveWidget}}.
+\code{\link{webshot2}}, \code{\link{saveWidget}}.
 }
