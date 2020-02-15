@@ -80,7 +80,7 @@ Imports:
     sf,
     sp,
     viridisLite,
-    webshot
+    webshot2
 Suggests:
     covr,
     dplyr,
