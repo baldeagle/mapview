@@ -120,9 +120,9 @@ mapshot <- function(x,
     }
     do.call(htmlwidgets::saveWidget, append(list(x_tmp), sw_ls[sw_args]))
     ws_args <- match.arg(names(args),
-                         names(as.list(args(webshot::webshot))),
+                         names(as.list(args(webshot2::webshot))),
                          several.ok = TRUE)
-    do.call(webshot::webshot, args[ws_args])
+    do.call(webshot2::webshot, args[ws_args])
   }
 
   ## if url was missing, remove temporary .html file

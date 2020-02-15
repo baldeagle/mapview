@@ -38,7 +38,7 @@ Imports:
     png,
     Rcpp (>= 0.11.3),
     lattice,
-    webshot,
+    webshot2,
     viridisLite,
     sf,
     stars,
